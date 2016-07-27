@@ -1,0 +1,73 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Panel">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>	
+    
+  
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="custom_white_on_black" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:actionBarWidgetTheme">@style/mynavmenu</item>
+        <item name="android:popupMenuStyle">@style/mynavmenu</item>
+        
+        <item name="android:listViewStyle">@style/style_listview</item>
+        <item name="android:actionBarStyle">@style/myactionbar</item>
+        <item name="android:popupBackground">@android:color/transparent</item>
+		        
+    </style>
+    
+    <style name="style_listview" parent="@android:style/Widget.DeviceDefault.ListView">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:divider">@color/bluedark</item>
+        <item name="android:listSelector">@drawable/pref_layout</item>
+        
+    </style>
+    
+    <style name="style_menu_listview" parent="@android:style/Widget.DeviceDefault.ListView">
+         <item name="android:background">@color/bluedark_50</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:divider">@android:color/white</item>
+        <item name="android:listSelector">@drawable/navmenu</item>
+        
+    </style>
+    
+    <style name="myactionbar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/bluedark_50</item>
+   		<item name="android:titleTextStyle">@style/myactionbartiletextstyle</item>
+   	</style>
+   	
+    <style name="myactionbartiletextstyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    	<item name="android:textColor">@android:color/white</item>    
+    </style>
+    
+
+    <style name="mynavmenu" parent="@style/Widget.AppCompat.Base.ListPopupWindow">
+        <item name="android:dropDownListViewStyle">@style/style_menu_listview</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:popupBackground">@android:color/black</item>
+    </style>
+
+    <style name="dialogstyle" parent="@android:style/Theme.Dialog">
+		
+    </style>
+	<style name="StyledProgressDialog" parent="@android:style/Theme.Dialog">
+      	<item name="android:windowBackground">@android:color/black</item>
+    	<item name="android:textColor">@color/yellow</item>
+		    	
+	</style>
+</resources>

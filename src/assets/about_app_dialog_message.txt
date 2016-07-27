@@ -1,0 +1,37 @@
+If you experience any issues with the application such as unexpected crashing, please contact the 
+developer via the email link made available by the Google Play Store.  
+Thank you and enjoy.
+\n\n
+Updates:
+\u2022
+Updated how this dialog is show on new installs and updates.
+\u2022
+Updated the API level.
+\n\n
+Build notes:
+\n
+The application has been tested in the Android emulator and on 2 other Android devices.  
+Performance does appear to vary across devices.  
+When opening a log file from the log manager, larger than 300KB, 
+it may take several seconds to finish loading the scroll 
+view once the progress dialog has closed.  
+It is recommended that you clear the screen first prior to moving 
+between sub activities, so as to alleviate the work load on the 
+UI thread once the main activity resumes.
+\n\n
+Features:
+\u2022
+Run application as root.
+\u2022
+Dump log-cat data to screen.
+\u2022
+Clear log-cat device.
+\u2022
+Save data to text file on SD-Card.
+\u2022
+In application log file manager.
+\u2022
+Give own name to saved log 
+\n\n
+Tap outside dialog window or press back button on device to close this message.
+ 

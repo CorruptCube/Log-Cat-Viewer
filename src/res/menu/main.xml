@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="wetsch.logcat.MainActivity" >
+	<item 
+	    android:id="@+id/menu_clear_log"
+	    android:orderInCategory="101"
+	    android:title="@string/option_menu_clear_log"
+	    android:icon="@drawable/clear_log_icon"
+	    android:showAsAction="ifRoom"/>
+	
+	<item 
+	    android:id="@+id/menu_clear_screen"
+	    android:orderInCategory="103"
+	    android:title="@string/option_menu_clear_screen"
+	    android:showAsAction="ifRoom"
+	    android:icon="@drawable/clear_screen_icon"/>
+	
+		<item 
+	    android:id="@+id/menu_refresh_log"
+	    android:orderInCategory="101"
+	    android:title="@string/option_menu_refresh_log"
+	    android:icon="@drawable/refresh_icon"
+	    android:showAsAction="always" />
+	<item 
+	    android:id="@+id/menu_save_to_sd"
+	    android:orderInCategory="100"
+	    android:title="@string/option_menu_save_to_sd_card"
+	    android:icon="@drawable/save_to_sd_icon"
+	    android:showAsAction="ifRoom"/>
+	<item
+	    android:id="@+id/menu_manage_logs"
+	    android:orderInCategory="104"
+	    android:title="@string/option_menu_manage_logs"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="105"
+        android:title="@string/option_menu_settings"/>
+    <item
+        android:id="@+id/menu_about_app"
+        android:title="@string/options_menu_about_app"
+        android:orderInCategory="106"
+        />
+    <item
+        android:id="@+id/menu_Exit"
+        android:orderInCategory="107"
+        android:title="@string/option_menu_exit"/>
+      
+	
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference 
+        android:key="version_name"
+        android:title="Version"
+        android:summary="@string/version_name"
+        android:defaultValue="0"
+        android:enabled="false"/>
+    
+    <CheckBoxPreference
+    	android:title="Run As Root"
+    	android:summaryOff="Run app as root user."
+    	android:summaryOn="Root Enabled"
+    	android:key="is_root"
+    	android:defaultValue="false"/>    
+</PreferenceScreen>
