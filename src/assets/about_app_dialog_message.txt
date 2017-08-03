@@ -4,8 +4,6 @@ Thank you and enjoy.
 \n\n
 Updates:
 \u2022
-Updated how this dialog is show on new installs and updates.
-\u2022
 Updated the API level.
 \n\n
 Build notes:
